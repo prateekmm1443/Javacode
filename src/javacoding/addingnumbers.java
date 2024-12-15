@@ -5,7 +5,7 @@ public class addingnumbers {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int num = 5678;
+		int num = 56789;
 		int sum = 0, pp=0, kk=0, sum1=0;
 		
 		System.out.println(5678);
