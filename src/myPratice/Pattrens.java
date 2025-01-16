@@ -1,9 +1,6 @@
 package myPratice;
 
-
-import java.util.Scanner;
-
-public class duplicateelementsinanarray {
+public class Pattrens {
 
 	public static void main(String[] args) {
 
@@ -96,22 +93,22 @@ public class duplicateelementsinanarray {
 //			}
 //			System.out.println(); // Move to the next line
 //		}
-		
-		for(int i=1 ; i<=n; i++) {
-			for(int j=i; j<n; j++) {
-				System.out.print(" ");				
+
+		for (int i = 1; i <= n; i++) {
+			for (int j = i; j < n; j++) {
+				System.out.print(" ");
 			}
-			for(int k=1; k<=(2*i-1); k++){
+			for (int k = 1; k <= (2 * i - 1); k++) {
 				System.out.print("*");
 			}
 			System.out.println();
 		}
-		
-		for(int i=1 ; i<=n; i++) {
-			for(int j=i; j<n; j++) {
-				System.out.print(" ");				
+
+		for (int i = 1; i <= n; i++) {
+			for (int j = i; j < n; j++) {
+				System.out.print(" ");
 			}
-			for(int k=1; k<=(2*i-1); k++){
+			for (int k = 1; k <= (2 * i - 1); k++) {
 				System.out.print("*");
 			}
 			System.out.println();
